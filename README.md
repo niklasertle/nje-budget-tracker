@@ -25,7 +25,7 @@ When ready use **'npm start'** into the command line to run.
 ## Links
 
 ![Screenshot of App](./assets/website-screenshot.JPG) <br>
-[Walkthrough Video]() <br>
+[Walkthrough Video](https://youtu.be/-cWCMUWPRsw) <br>
 [Deployed App]() <br>
 [GitHub](https://github.com/niklasertle/nje-budget-tracker)
 
