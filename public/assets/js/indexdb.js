@@ -22,7 +22,6 @@ function checkDatabase() {
   const getAll = offlineStore.getAll();
 
   getAll.onsuccess = function () {
-    console.log(getAll.result);
     if (getAll.result.length > 0) {
       fetch("/api/transaction/bulk", {
         method: "POST",

@@ -12,7 +12,7 @@
 
 ## Description
 
-
+The goal for this app was to allow for an offline experience using IndexDB and cached data. This was done using a webmanifest and service worker that would register on app load. This then caches a list of files that are specified in the service worker script. With this in place it allows the app to be installed from chrome and easily installed to any device. IndexDB was setup using a seperate javascript file that makes a request to the database and uses this to store transactions offline whenever the fetch request to post to the database fails. This allows us to catch the information and create a new database fetch when the application comes online, storing all the data from when the app was offline. The biggest challenge was getting the database to register a connection and keep that in a variable to be able to create the post requests when the applcation comes back online.
 
 ## Install
 
