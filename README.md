@@ -3,8 +3,8 @@
 # Table of Contents
 
 [Description](#description) -
+[Install](#install) -
 [Usage](#usage) - 
-[Technologies](#technologies) -
 [Links](#links) - 
 [Contact](#contact) -
 [Technologies](#technologies) -
